@@ -172,7 +172,8 @@ var YaGamesLoader;
                         a && r(w),
                         c(w)
             }
-            , h = new URLSearchParams(location.search).get("sdk");
+            ,
+            h = new URLSearchParams(location.search).get("sdk"); p(h);
         h ? p(h) : (async () => new Promise((e, r) => {
             const o = `${Date.now()}-${Math.random()}`
                 , n = setTimeout(() => {
